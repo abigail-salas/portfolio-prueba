@@ -56,7 +56,7 @@ function AboutMe() {
         </div>
         <div className="image col p-0 mt-6 md:mt-0">
           <img
-            src="./assets/imagenes/freelancer.jpg"
+            src="../assets/img/freelancer.jpg"
             alt="Foto relacionado a acerca de mí"
             width="100"
             height="100"

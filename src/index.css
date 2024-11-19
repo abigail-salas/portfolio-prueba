@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -371,7 +371,7 @@ body::-webkit-scrollbar-track {
 .freelancer {
   height: 50vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url(../imagenes/freelancer2.webp);
+    url(./assets/img/freelancer2.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -39,42 +39,42 @@ function Home() {
           </div>
           <div className="right__content col-9 sm:col-6 xl:col-5">
             <img
-              src="./public/foto_de_perfil.png"
+              src="./foto_de_perfil.png"
               alt="Foto perfil"
               width="100"
               height="100"
             />
           </div>
         </section>
+
+        <section id="about-me">
+          <AboutMe />
+        </section>
       </div>
 
-      <section id="about-me">
-        <AboutMe />
+      <section className="freelancer mb-4 mt-4 min-w-full flex flex-column justify-content-center align-items-center">
+        <p className="text-sm">Tienes un proyecto en mente?</p>
+        <h1 className="text-center">Estoy disponible como freelancer</h1>
+        <div className="hireMe__button pt-4">
+          <a
+            href="mailTo:salasmedina02@gmail.com"
+            aria-label="Enviar mensaje al correo"
+            className="cursor-pointer no-underline border-round-lg"
+          >
+            Escríbeme
+          </a>
+        </div>
       </section>
 
+      <div className="container">
+        <section id="skills">
+          <Skills />
+        </section>
 
-      <section
-      className="freelancer mb-4 mt-4 min-w-full flex flex-column justify-content-center align-items-center"
-    >
-      <p className="text-sm">Tienes un proyecto en mente?</p>
-      <h1 className="text-center">Estoy disponible como freelancer</h1>
-      <div className="hireMe__button pt-4">
-        <a
-          href="mailTo:salasmedina02@gmail.com"
-          aria-label="Enviar mensaje al correo"
-          className="cursor-pointer no-underline border-round-lg"
-          >Escríbeme</a
-        >
+        <section id="projects">
+          <Projects />
+        </section>
       </div>
-    </section>
-
-
-      <section id="projects">
-        <Projects />
-      </section>
-      <section id="skills">
-        <Skills />
-      </section>
     </div>
   );
 }

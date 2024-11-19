@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <header className="flex w-full fixed top-0 z-1">
-      <nav className="flex justify-between w-full navbar">
+      <nav className="flex justify-content-between w-full navbar">
         <span className="logo cursor-pointer" onClick="scrollToSection('home')">
           <img src="./ABBY.png" alt="Logo portafolio" width="50" height="50" />
         </span>
@@ -17,7 +17,7 @@ function Navbar() {
           <span className="line line2"></span>
           <span className="line line3"></span>
         </div>
-        <div className="header__info flex items-center gap-3">
+        <div className="header__info flex align-items-center gap-3">
           <ul className="flex flex-column xl:flex-row list-none">
             <li onClick="scrollToSection('about')">Sobre mí</li>
             <li onClick="scrollToSection('services')">Conocimiento</li>

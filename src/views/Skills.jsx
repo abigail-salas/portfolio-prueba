@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Skills() {
   return (
@@ -16,7 +17,7 @@ function Skills() {
       <div className="services__card w-full grid grid-nogutter mt-7">
         <div className="col-12 md:col-6 lg:col-4 xl:col-3 gap-3 p-2 card flex align-items-center">
           <div className="service__logo flex align-items-center justify-content-center">
-            <i className="fa-brands fa-js"></i>
+            <FontAwesomeIcon icon="faJs" />
           </div>
           <div className="service__name">
             <p>JavaScript</p>

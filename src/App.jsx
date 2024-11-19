@@ -3,6 +3,8 @@ import Home from "./views/Home";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
 
+import "./utils/iconLibrary";
+import "../node_modules/primeflex/primeflex.css";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
         <Route path="/" element={<Home />} />
       </Routes>
 
-      <Footer />
+      <div className="container">
+        <Footer />
+      </div>
     </>
   );
 }

@@ -1,21 +1,21 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub, faEnvelope } from "../utils/icon";
 
 function Footer() {
   return (
     <footer
       id="contact"
-      className="min-h-full w-full flex grid col-12 justify-content-center pb-8 pt-8 lg:text-center"
+      className="min-h-full w-full flex grid col-12 justify-center pb-8 pt-8 lg:text-center"
     >
-      <div className="social__media col-12 md:col-4 flex flex-column justify-content-between">
+      <div className="social__media col-12 md:col-4 flex flex-column justify-between">
         <h3>Redes sociales</h3>
         <p>Auténtica e innovadora</p>
         <p>
           Desarrollo lo que necesitas, con un enfoque en usabilidad y
           rendimiento
         </p>
-        <div className="social__mediaIcons mt-5 flex lg:justify-content-center gap-3">
+        <div className="social__mediaIcons mt-5 flex lg:justify-center gap-3">
           {/* <!--  <a
           href="#"
           target="_blank"
@@ -35,11 +35,11 @@ function Footer() {
             target="_blank"
             aria-label="Ir a linkedin"
           >
-            <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
       </div>
-      <div className="contact col-12 sm:col-6 sm:pt-0 md:pt-2 md:col-4 flex flex-column justify-content-between md:align-items-center">
+      <div className="contact col-12 sm:col-6 sm:pt-0 md:pt-2 md:col-4 flex flex-column justify-between md:align-items-center">
         <h3>Contacto</h3>
         <div className="phone__number flex align-items-center gap-2">
           <i className="fa-solid fa-phone"></i>
@@ -61,7 +61,7 @@ function Footer() {
           Escríbeme
         </a>
       </div>
-      <div className="my__services col-12 sm:col-6 sm:p-0 md:col-4 md:pt-2 md:align-items-center flex flex-column justify-content-between">
+      <div className="my__services col-12 sm:col-6 sm:p-0 md:col-4 md:pt-2 md:align-items-center flex flex-column justify-between">
         <h3>Mis Servicios</h3>
         <p>Desarrollo web FullStack</p>
         <p>Docente en JS, React, Node y PostgreSQL</p>
