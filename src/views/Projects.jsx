@@ -1,4 +1,10 @@
 import React from "react";
+import canalDelClima from "../assets/img/Canal-del-clima.png"
+import buscaMinas from "../assets/img/world-of-minesweeper.png"
+import toDoList from "../assets/img/Lista-de-quehaceres.png"
+import tateti from "../assets/img/tateti.png"
+import typerD from "../assets/img/Typer-D.png"
+
 
 function Projects() {
   return (
@@ -14,7 +20,7 @@ function Projects() {
       </div>
       <div className="portfolio__gallery">
         <div className="gallery__categories mb-5 mt-5">
-          {/* <!-- <ul className="flex list-none flex-wrap justify-content-center gap-3">
+          {/* <ul className="flex list-none flex-wrap justify-content-center gap-3">
               <li className="filter-item active" data-filter="all">Todos</li>
               <li className="filter-item" data-filter="gym">Gimnasio</li>
               <li className="filter-item" data-filter="tours__Web">Tours web</li>
@@ -22,11 +28,11 @@ function Projects() {
                 Inmobiliaria web
               </li>
               <li className="filter-item" data-filter="e__commerce">E-commerce</li>
-            </ul> --> */}
+            </ul>  */}
         </div>
         <div className="proyect__gallery flex justify-content-center align-items-center flex-wrap gap-3">
           <div className="project__card e__commerce">
-            <img src="./assets/imagenes/world-of-minesweeper.png" alt="" />
+            <img src={buscaMinas} alt="" />
             <div className="overlay"></div>
             <div className="project__info flex w-full flex-column justify-content-center align-items-center text-center">
               <h2>Busca Minas</h2>
@@ -45,7 +51,7 @@ function Projects() {
             </div>
           </div>
           <div className="project__card tours__Web">
-            <img src="./assets/imagenes/Lista-de-quehaceres.png" alt="" />
+            <img src={toDoList} alt="" />
             <div className="overlay"></div>
             <div className="project__info flex w-full flex-column justify-content-center align-items-center text-center">
               <h2>To Do List</h2>
@@ -63,7 +69,7 @@ function Projects() {
             </div>
           </div>
           <div className="project__card gym">
-            <img src="./assets/imagenes/Canal-del-clima.png" alt="" />
+            <img src={canalDelClima} alt="" />
             <div className="overlay"></div>
             <div className="project__info flex w-full flex-column justify-content-center align-items-center text-center">
               <h2>Weather Channel</h2>
@@ -81,7 +87,7 @@ function Projects() {
             </div>
           </div>
           <div className="project__card world__Tours">
-            <img src="./assets/imagenes/tateti.png" alt="" />
+            <img src={tateti} alt="" />
             <div className="overlay"></div>
             <div className="project__info flex w-full flex-column justify-content-center align-items-center text-center">
               <h2>Ta Te Ti</h2>
@@ -99,7 +105,7 @@ function Projects() {
             </div>
           </div>
           <div className="project__card tours__Web">
-            <img src="./assets/imagenes/Typer-D.png" alt="" />
+            <img src={typerD} alt="" />
             <div className="overlay"></div>
             <div className="project__info flex w-full flex-column justify-content-center align-items-center text-center">
               <h2>Typer-D</h2>
