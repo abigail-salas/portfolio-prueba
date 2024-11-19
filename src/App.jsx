@@ -1,7 +1,19 @@
+import Navbar from "./components/Navbar";
+import Home from "./views/Home";
+import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
+
+
 function App() {
   return (
     <>
-      <h1>probando</h1>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+
+      <Footer />
     </>
   );
 }

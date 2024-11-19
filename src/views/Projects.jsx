@@ -1,9 +1,128 @@
-import React from 'react'
+import React from "react";
 
 function Projects() {
   return (
-    <div>Projects</div>
-  )
+    <section id="portfolio" className="portfolio min-h-full w-full pb-8 pt-8">
+      <div className="portfolio__title flex flex-column gap-3 text-center">
+        <h1 className="text-3xl md:text-5xl">Mi trabajo</h1>
+        {/* <!-- <p className="text-gray-400 text-sm md:text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum odit
+            ab mollitia optio quod recusandae placeat aliquam veniam officiis
+            cum quam eum architecto quidem, nobis commodi consequatur distinctio
+            ullam non.
+          </p> --> */}
+      </div>
+      <div className="portfolio__gallery">
+        <div className="gallery__categories mb-5 mt-5">
+          {/* <!-- <ul className="flex list-none flex-wrap justify-content-center gap-3">
+              <li className="filter-item active" data-filter="all">Todos</li>
+              <li className="filter-item" data-filter="gym">Gimnasio</li>
+              <li className="filter-item" data-filter="tours__Web">Tours web</li>
+              <li className="filter-item" data-filter="world__Tours">
+                Inmobiliaria web
+              </li>
+              <li className="filter-item" data-filter="e__commerce">E-commerce</li>
+            </ul> --> */}
+        </div>
+        <div className="proyect__gallery flex justify-content-center align-items-center flex-wrap gap-3">
+          <div className="project__card e__commerce">
+            <img src="./assets/imagenes/world-of-minesweeper.png" alt="" />
+            <div className="overlay"></div>
+            <div className="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+              <h2>Busca Minas</h2>
+              <p>
+                Buscaminas es un videojuego para un jugador. El objetivo del
+                juego es despejar un campo de minas sin detonar ninguna.
+              </p>
+
+              <a
+                href="https://busca-minas-e8cfad.netlify.app"
+                target="_blank"
+                style={{color: "white"}}
+              >
+                <i className="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+          <div className="project__card tours__Web">
+            <img src="./assets/imagenes/Lista-de-quehaceres.png" alt="" />
+            <div className="overlay"></div>
+            <div className="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+              <h2>To Do List</h2>
+              <p>
+                ¡Pagína de lista de quehaceres! Anotá todas tus tareas del día
+                aquí.
+              </p>
+              <a
+                href="https://todolist-ae8e5d.netlify.app/"
+                target="_blank"
+                style={{color: "white"}}
+              >
+                <i className="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+          <div className="project__card gym">
+            <img src="./assets/imagenes/Canal-del-clima.png" alt="" />
+            <div className="overlay"></div>
+            <div className="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+              <h2>Weather Channel</h2>
+              <p>
+                ¡Aquí podrás ver el clima de cada ciudad! Con una linda imagen
+                ilustrativa.
+              </p>
+              <a
+                href="https://weatherchannel-bafb49.netlify.app/"
+                target="_blank"
+                style={{color: "white"}}
+              >
+                <i className="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+          <div className="project__card world__Tours">
+            <img src="./assets/imagenes/tateti.png" alt="" />
+            <div className="overlay"></div>
+            <div className="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+              <h2>Ta Te Ti</h2>
+              <p>
+                El clasico TA TE TI o también conocido como TRES EN RAYA. Aquí
+                podrás jugar con 1vs1 con la computadora.
+              </p>
+              <a
+                href="https://tateti-804a09.netlify.app/"
+                target="_blank"
+                style={{color: "white"}}
+              >
+                <i className="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+          <div className="project__card tours__Web">
+            <img src="./assets/imagenes/Typer-D.png" alt="" />
+            <div className="overlay"></div>
+            <div className="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+              <h2>Typer-D</h2>
+              <p>
+                Este juego interactivo se desarrolla de la siguiente manera:
+                recibirá una palabra en inglés y la tendrá que tipear en un
+                input en el menor tiempo posible. Si la palabra tipeada coincide
+                con la recibida, pasa a la siguiente y se le asigna un tiempo
+                extra.
+              </p>
+              <a
+                href="https://typer-d-6eaec9.netlify.app/"
+                target="_blank"
+                style={{color: "white"}}
+              >
+                <i className="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default Projects
+export default Projects;
