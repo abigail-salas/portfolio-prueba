@@ -1,21 +1,53 @@
-import ReactDOM from "react-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
+// Importa los íconos que necesitas
+import {
+  faJs,
+  faReact,
+  faNodeJs,
+  faSass,
+  faBootstrap,
+  faHtml5,
+  faCss3Alt,
+  faNode,
+  faGit,
+  faGitAlt,
+  faGithub,
+  faWhatsapp,
+  faLinkedin,
+  faLinkedinIn,
+} from "@fortawesome/free-brands-svg-icons";
+/* import { faEnvelope } from "@fortawesome/free-regular-svg-icons"; */
+import {
+  faCode,
+  faDatabase,
+  faCodeBranch,
+  faCodePullRequest,
+  faArrowsTurnToDots,
+  faEnvelope,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 
-import { fas } from "@fortawesome/free-solid-svg-icons";
-// import { fass } from '@fortawesome/sharp-solid-svg-icons'
-// import { fad } from '@fortawesome/pro-duotone-svg-icons'
-// import { fadt } from '@fortawesome/duotone-thin-svg-icons'
-// import { fasds } from '@fortawesome/sharp-duotone-solid-svg-icons'
-import { faTwitter, faFontAwesome, faJs } from "@fortawesome/free-brands-svg-icons";
-// import { faHatCowboy } from '@fortawesome/pro-thin-svg-icons'
-// import { faHatChef } from '@fortawesome/sharp-solid-svg-icons'
-
-library.add(fas, faTwitter, faFontAwesome, faJs);
-
-/* // src/utils/iconLibrary.js
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faLinkedin, faGithub, faJs } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faCoffee } from "@fortawesome/free-solid-svg-icons";
-
-// Agrega los íconos a la biblioteca global
-library.add(faLinkedin, faGithub, faEnvelope, faCoffee, faJs); */
+// Agrega íconos a la biblioteca
+library.add(
+  faJs,
+  faReact,
+  faNodeJs,
+  faEnvelope,
+  faCode,
+  faSass,
+  faBootstrap,
+  faHtml5,
+  faCss3Alt,
+  faNode,
+  faGit,
+  faGitAlt,
+  faGithub,
+  faDatabase,
+  faCodeBranch,
+  faCodePullRequest,
+  faArrowsTurnToDots,
+  faWhatsapp,
+  faLinkedin,
+  faLinkedinIn,
+  faPhone
+);

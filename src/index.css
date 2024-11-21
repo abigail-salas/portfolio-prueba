@@ -406,12 +406,13 @@ body::-webkit-scrollbar-track {
 .card:hover .service__logo {
   background-color: #fff;
 }
-.card:hover .service__logo i {
+.card:hover .service__logo .icon-style {
   color: #000;
 }
 
-.icono-color {
+.icon-style {
   color: #a3a3a3;
+  font-size: 25px;
 }
 
 /* ------- PORTFOLIO -------- */
@@ -510,17 +511,17 @@ footer {
 }
 
 :is(.social__media, .contact, .my__services) p,
-:is(.fa-phone, .fa-envelope, .fa-message, .fa-brands) {
+:is(.fa-phone, .fa-envelope, .fa-message, .icon-color) {
   color: #a3a3a3;
 }
 
-.social__mediaIcons .fa-brands {
+.social__mediaIcons .icon-color {
   font-size: 2rem;
   transition: all 0.2s ease-in;
   cursor: pointer;
 }
 
-.social__mediaIcons .fa-brands:hover {
+.social__mediaIcons .icon-color:hover {
   color: var(--secondary-bg-color);
 }
 .contact a {

@@ -17,7 +17,7 @@ function Skills() {
       <div className="services__card w-full grid grid-nogutter mt-7">
         <div className="col-12 md:col-6 lg:col-4 xl:col-3 gap-3 p-2 card flex align-items-center">
           <div className="service__logo flex align-items-center justify-content-center">
-            <FontAwesomeIcon icon="faJs" />
+            <FontAwesomeIcon icon="fa-brands fa-js" className="icon-style" />
           </div>
           <div className="service__name">
             <p>JavaScript</p>
@@ -26,7 +26,7 @@ function Skills() {
 
         <div className="col-12 md:col-6 lg:col-4 xl:col-3 gap-3 p-2 card flex align-items-center">
           <div className="service__logo flex align-items-center justify-content-center">
-            <i className="fa-brands fa-react"></i>
+            <FontAwesomeIcon icon="fa-brands fa-react" className="icon-style" />
           </div>
           <div className="service__name">
             <p>React.js</p>
@@ -35,7 +35,7 @@ function Skills() {
 
         <div className="col-12 md:col-6 lg:col-4 xl:col-3 gap-3 p-2 card flex align-items-center">
           <div className="service__logo flex align-items-center justify-content-center">
-            <i className="fa-brands fa-sass"></i>
+            <FontAwesomeIcon icon="fa-brands fa-sass" className="icon-style" />
           </div>
           <div className="service__name">
             <p>SASS</p>
@@ -44,7 +44,10 @@ function Skills() {
 
         <div className="col-12 md:col-6 lg:col-4 xl:col-3 gap-3 p-2 card flex align-items-center">
           <div className="service__logo flex align-items-center justify-content-center">
-            <i className="fa-brands fa-bootstrap"></i>
+            <FontAwesomeIcon
+              icon="fa-brands fa-bootstrap"
+              className="icon-style"
+            />
           </div>
           <div className="service__name">
             <p>Bootstrap</p>
@@ -53,7 +56,7 @@ function Skills() {
 
         <div className="col-12 md:col-6 lg:col-4 xl:col-3 gap-3 p-2 card flex align-items-center">
           <div className="service__logo flex align-items-center justify-content-center">
-            <i className="fa-brands fa-html5"></i>
+            <FontAwesomeIcon icon="fa-brands fa-html5" className="icon-style" />
           </div>
           <div className="service__name">
             <p>HTML</p>
@@ -62,7 +65,10 @@ function Skills() {
 
         <div className="col-12 md:col-6 lg:col-4 xl:col-3 gap-3 p-2 card flex align-items-center">
           <div className="service__logo flex align-items-center justify-content-center">
-            <i className="fa-brands fa-css3-alt"></i>
+            <FontAwesomeIcon
+              icon="fa-brands fa-css3-alt"
+              className="icon-style"
+            />
           </div>
           <div className="service__name">
             <p>CSS</p>
@@ -71,7 +77,7 @@ function Skills() {
 
         <div className="col-12 md:col-6 lg:col-4 xl:col-3 gap-3 p-2 card flex align-items-center">
           <div className="service__logo flex align-items-center justify-content-center">
-            <i className="fa-solid fa-code icono-color"></i>
+            <FontAwesomeIcon icon="fa-solid fa-code" className="icon-style" />
           </div>
           <div className="service__name">
             <p>DOM</p>
@@ -80,7 +86,8 @@ function Skills() {
 
         <div className="col-12 md:col-6 lg:col-4 xl:col-3 gap-3 p-2 card flex align-items-center">
           <div className="service__logo flex align-items-center justify-content-center">
-            <i className="fa-brands fa-node"></i>
+            <FontAwesomeIcon icon="fa-brands fa-node" size="2x"
+              style={{ color: "#a3a3a3" }} />
           </div>
           <div className="service__name">
             <p>Node.js</p>
@@ -89,7 +96,7 @@ function Skills() {
 
         <div className="col-12 md:col-6 lg:col-4 xl:col-3 gap-3 p-2 card flex align-items-center">
           <div className="service__logo flex align-items-center justify-content-center">
-            <i className="fa-solid fa-code icono-color"></i>
+            <FontAwesomeIcon icon="fa-solid fa-code" className="icon-style" />
           </div>
           <div className="service__name">
             <p>Express</p>
@@ -98,7 +105,10 @@ function Skills() {
 
         <div className="col-12 md:col-6 lg:col-4 xl:col-3 gap-3 p-2 card flex align-items-center">
           <div className="service__logo flex align-items-center justify-content-center">
-            <i className="fa-solid fa-database icono-color"></i>
+            <FontAwesomeIcon
+              icon="fa-solid fa-database"
+              className="icon-style"
+            />
           </div>
           <div className="service__name">
             <p>PostgreSQL</p>
@@ -107,7 +117,10 @@ function Skills() {
 
         <div className="col-12 md:col-6 lg:col-4 xl:col-3 gap-3 p-2 card flex align-items-center">
           <div className="service__logo flex align-items-center justify-content-center">
-            <i className="fa-solid fa-database icono-color"></i>
+            <FontAwesomeIcon
+              icon="fa-solid fa-database"
+              className="icon-style"
+            />
           </div>
           <div className="service__name">
             <p>MongoDB</p>
@@ -116,7 +129,10 @@ function Skills() {
 
         <div className="col-12 md:col-6 lg:col-4 xl:col-3 gap-3 p-2 card flex align-items-center">
           <div className="service__logo flex align-items-center justify-content-center">
-            <i className="fa-solid fa-code-branch icono-color"></i>
+            <FontAwesomeIcon
+              icon="fa-solid fa-code-branch"
+              className="icon-style"
+            />
           </div>
           <div className="service__name">
             <p>JWT</p>
@@ -125,7 +141,10 @@ function Skills() {
 
         <div className="col-12 md:col-6 lg:col-4 xl:col-3 gap-3 p-2 card flex align-items-center">
           <div className="service__logo flex align-items-center justify-content-center">
-            <i className="fa-solid fa-code-pull-request icono-color"></i>
+            <FontAwesomeIcon
+              icon="fa-solid fa-code-pull-request"
+              className="icon-style"
+            />
           </div>
           <div className="service__name">
             <p>Postman</p>
@@ -134,7 +153,11 @@ function Skills() {
 
         <div className="col-12 md:col-6 lg:col-4 xl:col-3 gap-3 p-2 card flex align-items-center">
           <div className="service__logo flex align-items-center justify-content-center">
-            <i className="fa-brands fa-git-alt"></i>
+            <FontAwesomeIcon
+              icon="fa-brands fa-git-alt"
+              size="2x"
+              style={{ color: "#a3a3a3" }}
+            />
           </div>
           <div className="service__name">
             <p>GIT</p>
@@ -143,7 +166,10 @@ function Skills() {
 
         <div className="col-12 md:col-6 lg:col-4 xl:col-3 gap-3 p-2 card flex align-items-center">
           <div className="service__logo flex align-items-center justify-content-center">
-            <i className="fa-brands fa-github"></i>
+            <FontAwesomeIcon
+              icon="fa-brands fa-github"
+              className="icon-style"
+            />
           </div>
           <div className="service__name">
             <p>GitHub</p>
@@ -152,7 +178,10 @@ function Skills() {
 
         <div className="col-12 md:col-6 lg:col-4 xl:col-3 gap-3 p-2 card flex align-items-center">
           <div className="service__logo flex align-items-center justify-content-center">
-            <i className="fa-solid fa-arrows-turn-to-dots icono-color"></i>
+            <FontAwesomeIcon
+              icon="fa-solid fa-arrows-turn-to-dots"
+              className="icon-style"
+            />
           </div>
           <div className="service__name">
             <p>Scrum</p>
